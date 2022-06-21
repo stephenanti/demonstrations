@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Political demonstrations</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet' />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet" />
+
+</head>
+
+<body>
+<div class ="body"> 
+    <h1> Journalist and media workers suffer attacks the most, at protests </h1>
+    <h3>By Stephen Anti</h3>
+    <h4> New York, June 2022</h4>
+
+<p>Protests across the world constituted the largest form of political violence and demonstrations involving Journalists and media workers in the first quarter of 2022.  Analysis of data from The Armed Conflict Location & Event Data Project (ACLED) shows that almost 9,000 protests were recorded at various locations across the world, as political violence and clampdowns on media freedoms spurred various forms of agitations.  Violence against civilians, riots, battles and explosions are among some of the violent events across the world in which journalists and media workers were attacked in the line of their work.<br>
+ <br>
+    <img src="images/brooklynprotets.jpeg" alt ="Proesters in Brooklyn New York"> 
+    <h4>Photo Credit: Sarah Skaffidi. Protesters demonstrate against police brutality and racial injustice in Brooklyn, New York.</h4>
+<br>
+According to the United Nations Educational, Scientific and Cultural Organization (UNESCO)
+‘Harassment, arrests and physical violence against journalists, mostly by government security forces and sometimes by protestors, have risen in recent years. Press freedom and freedom of expression has been impacted in many countries by these attacks” (Smyth Frank, UNESCO, Safety of journalists covering protests : preserving freedom of the press during times of turmoil)
+
+The ACLED data analysis also revealed that Karachi, Hyderabad, Peshwawar, Lahor, sukkur were the top 5 locations in the world where more journalists and media workers suffered attacks in the line of their work. </p>
+
+    <div id='map'></div>   
+   
+        <p>Political demonstrations across the world</p>
+
+        <div class ="legend"> <div><span style="background-color: #e62e00" class="text-span"></span>Violence against civilians</div>
+
+        <div><span style="background-color: #0000ff" class="text-span"></span>Strategic developments</div>
+
+        <div><span style="background-color: #ac7339" class="text-span"></span>Protests</div>
+
+        <div><span style="background-color:#ff9900" class="text-span">Riots</span></div>
+
+        <div><span style="background-color: #661a00" class="text-span">Explosions/Remote violence</span></div>
+
+        <div><span style="background-color: #008080" class="text-span">Battles</span></div></div>
+        
+   
+    <h2> Map showing locations and number of attacks recorded</h2>
+    <p>The Pakistani city of Karachi recorded 287 incidents of violent attacks on Journalists and media workers during the first quarter of 2022 and topped the list of 5 locations, followed by the Indian city of Hyderabad with 278 incidents.Peshawar, Lahore, Sukkur, which are all Pakistani cities, also recorded 276, 259, and 243 incidents
+</p>
+    <script type='text/javascript' src="map.js"></script>
+ </div>
+</body>
+</html>
